@@ -82,6 +82,6 @@ Pinteresting::Application.configure do
 
 #Required for Heroku
 # Set this to my original host
-config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+config.action_mailer.default_url_options = { :host => 'ninjix-pinteresting.herokuapp.com' }
 
 end
